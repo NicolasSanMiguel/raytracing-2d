@@ -1,4 +1,5 @@
 # raytracing-2d
+Version 1.0
 
 These files create a point source of rays located in a field with five random walls. 
 Rays are emitted from the point source and terminate when they intersect one of the walls or the sides of the screen.
