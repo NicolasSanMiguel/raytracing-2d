@@ -28,7 +28,9 @@ class Particle {
         }
 
         if (closest) {
-            stroke(255,100);
+            //stroke(255,100);
+            colorMode(HSB);
+            stroke(255-(this.position.x)/3.3, 255-(this.position.y)/3.3, 255, 50);
             line(this.position.x, this.position.y, closest.x, closest.y)
         }
     }
